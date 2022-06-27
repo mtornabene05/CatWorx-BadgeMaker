@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fpIV601F/TythBijpmTTlBhIBzUSyBRpH2/jkUxlMtJEH84UazSIbimv0fJuMoXlqkFQs4PpL8P5jdmbHmYjrg==",
+  "dgSpecHash": "guC4de6f7HKH7EVettJYkWmx1WQw2rSmYA8Mm+G+OhJy9MM+jIx4+qH5NcwbTP0WhhIshnYUnKcsR5lg0o7FiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tornabenem\\Desktop\\DEV\\personal\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tornabenem\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\tornabenem\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\tornabenem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
   ],
   "logs": []
