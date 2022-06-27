@@ -12,7 +12,7 @@ namespace CatWorx.BadgeMaker
             //Collect user values until the value is an empty string
             while (true)
             {
-                Console.WriteLine("Please enter a name: (leave empty to exit) ");
+                Console.WriteLine("Please enter first name: (leave empty to exit) ");
                 //Get a name from the console and assign it to a variable
                 string firstName = Console.ReadLine();
                 //Break if the user hits ENTER without typing a name
@@ -35,19 +35,10 @@ namespace CatWorx.BadgeMaker
             return employees;
         }
 
-        static void PrintEmployees(List<Employee> employees)
-        {
-            for (int i = 0; i < employees.Count; i++)
-            {
-                string template = "{0,-10}\t{1,-20}\t{2}";
-                Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetName(), employees[i].GetPhotoUrl()));
-            }
-        }
-
         static void Main(string[] args)
         {
             List<Employee> employees = GetEmployees();        
-            PrintEmployees(employees);
+            Util.PrintEmployees(employees);
          
         }
     }
